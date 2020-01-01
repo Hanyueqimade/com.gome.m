@@ -26,17 +26,6 @@ header div {
   padding-left: 10px;
 }
 
-header div i {
-  display: inline-block;
-  width: 25px;
-  height: 20px;
-  background-image: url(../upload/search_icon.png);
-  background-position: -57px -109px;
-  background-size: 200px 200px;
-  margin-left: 10px;
-  vertical-align: middle;
-}
-
 header div input {
   height: 100%;
   border: none;
