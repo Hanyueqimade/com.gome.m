@@ -693,4 +693,24 @@ nav li:nth-child(1) p:nth-child(2) {
 .other p {
   line-height: 2;
 }
+
+.fixed {
+  position: fixed;
+  bottom: calc(100rem / 75);
+  right: calc(30rem/ 75);
+}
+
+.fixed img {
+  width: calc(80rem /75);
+}
+
+.f-img {
+  position: fixed;
+  bottom: calc(500rem / 75);
+  right: calc(30rem/ 75);
+}
+
+.f-img img {
+  width: calc(120rem /75);
+}
 /*# sourceMappingURL=index.css.map */

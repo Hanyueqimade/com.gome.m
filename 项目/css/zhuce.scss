@@ -1,0 +1,123 @@
+section {
+    width: 100%;
+    height: 100%;
+    padding: calc(60rem / 75);
+}
+
+.bgi {
+    width: 100%;
+    height: calc(240rem/75);
+    background-image: url(../upload/zc-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.phone {
+    width: 100%;
+    height: calc(84rem / 75);
+    border-bottom: calc(2rem / 75) solid #ecedee;
+
+    input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        font-size: calc(30rem / 75);
+        color: #ceced4;
+    }
+
+    input::-webkit-input-placeholder {
+        color: #acacac;
+    }
+}
+
+.special {
+    display: flex;
+    margin-top: calc(20rem / 75);
+
+    p {
+        width: calc(200rem / 75);
+        margin-top: calc(30rem / 75);
+        font-size: calc(30rem / 75);
+        color: #d7ecf8;
+    }
+}
+
+.lince {
+    width: 100%;
+    margin-top: calc(30rem / 75);
+
+    p {
+        line-height: 1.7;
+
+        i {
+            display: inline-block;
+            width: calc(30rem / 75);
+            height: calc(30rem / 75);
+            border: calc(2rem / 75) solid #dddee0;
+            border-radius: calc(10rem / 75);
+            margin-right: calc(5rem / 75);
+
+        }
+
+        span {
+            color: #cdd0d4;
+        }
+
+        a {
+            color: #78beeb;
+        }
+    }
+
+}
+
+.denglu {
+    width: 100%;
+    text-align: center;
+    height: calc(100rem / 75);
+    line-height: calc(100rem / 75);
+    margin: calc(20rem / 75) 0;
+    background-color: #ff83b0;
+    border-radius: calc(50rem / 75);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: calc(30rem/ 75);
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(50rem / 75);
+
+    h2 {
+        font-size: calc(30rem / 75);
+    }
+}
+
+.other-box {
+    width: 100%;
+    padding: calc(50rem / 75);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+
+    p {
+        position: relative;
+        top: calc(14rem / 75);
+        color: #c8c7c8;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            width: 25%;
+            padding: calc(40rem / 75);
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
